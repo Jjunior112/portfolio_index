@@ -1,0 +1,49 @@
+.section {
+    background: linear-gradient(45deg, #9E0C25, #03709E);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section button{
+    background: transparent;
+}
+.section svg {
+    color: white;
+    font-size: 1.5em;
+    margin: 1.5em;
+    transition: .5s ease-in-out;
+}
+
+.section svg:hover {
+    transform: scale(1.2);
+    color: #28B1EB;
+}
+
+.name {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding-top: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.name h1 {
+    font-size: 4vw;
+}
+
+.name h2 {
+    font-size: 2vw;
+}
+
+@media (width<600px) {
+    .name h2 {
+        font-size: 4vw;
+    }
+
+    .name p {
+        font-size: 3vw;
+    }
+}

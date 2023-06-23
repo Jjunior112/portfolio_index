@@ -1,0 +1,48 @@
+.project {
+    background-color: #C2D4EB;
+    width: 20em;
+    height: 18em;
+    margin: 2em;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+    justify-content: space-between;
+    
+}
+
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px 2px #2a2a2a;
+    cursor: pointer;
+}
+
+.project img {
+    margin: 0 auto;
+    width: 90%;
+    height: 8em;
+}
+
+.description {
+    width: 90%;
+    height: 8em;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000000;
+    padding: .5em;
+    overflow: scroll;
+    
+}
+
+.project a {
+    margin: 1em;
+    text-decoration: none;
+    color: #28B1EB;
+}
+
+@media (width<500px){
+    .project{
+        margin: 0 auto;
+        margin: 1em;
+    }
+    
+}

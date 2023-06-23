@@ -1,0 +1,36 @@
+.section{
+    border-top: 3px dashed #4493B8;
+    background:linear-gradient(-45deg, #9E0C25, #03709E );
+    color: #28B1EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+.projects{
+    display: flex;
+    background-color: transparent;
+    padding-bottom: .5em;
+    margin-top: .5em; 
+}
+.inner{
+    display: flex;
+    margin: 0 auto;
+    padding: .5em;
+    background-color: #9E0C25;
+    margin-bottom: .5em;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner:hover{
+    cursor: grab;
+}
+.inner:active{
+    cursor: grabbing;
+}
+
+
+
+
