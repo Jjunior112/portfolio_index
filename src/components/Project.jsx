@@ -1,13 +1,13 @@
 import styles from './Project.module.css'
 
 
-const Project = ({ link, name, src, alt, description }) => {
+const Project = ({ link, name, title, src, alt, description }) => {
 
 
     return (
         <div className={styles.project} >
 
-            <a href={link} target="_blank" rel="noopener noreferrer"><img src={src} alt={alt} /></a>
+            <a href={link} target="_blank" title={title} rel="noopener noreferrer"><img src={src} alt={alt} /></a>
 
             <div className={styles.description} >
 
