@@ -5,9 +5,16 @@ import { FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const Profile = () => {
-    
+
     return (
-        <section className={styles.section}>
+        <section id='home' className={styles.section}>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#abilities">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </ul>
+            </nav>
 
             <motion.div className={styles.name} initial={{ y: 100 }} animate={{ y: 0 }} transition={{ duration: 0.8 }}>
 
@@ -15,7 +22,7 @@ const Profile = () => {
 
                 <h2>Juarez Júnior</h2>
 
-                <p>Tenho 23 anos, sou frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em HTML,CSS, JavaScript e no framework React JS </p>
+                <p>Tenho 23 anos, sou frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em HTML,CSS, JavaScript e nos frameworks React JS e Bootstrap </p>
 
             </motion.div>
 

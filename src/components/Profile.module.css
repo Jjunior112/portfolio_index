@@ -1,17 +1,48 @@
 .section {
+    border-top: 3px dashed #4493B8;
     background: linear-gradient(45deg, #9E0C25, #03709E);
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 8em;
 }
-.section button{
+
+.section nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.section ul {
+    display: flex;
+    list-style-type: none;
+}
+.section li{
+    margin-left: 1em;
+}
+.section li:last-child{
+    margin-right: 1em;
+}
+
+.section li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.section li>a:hover{
+    color: #9E0C25;
+}
+
+.section button {
     background: transparent;
 }
+
 .section svg {
     color: white;
     font-size: 1.5em;
     margin: 1.5em;
     transition: .5s ease-in-out;
+    margin-top: 5em;
 }
 
 .section svg:hover {

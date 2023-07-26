@@ -1,11 +1,12 @@
 .section{
     border-top: 3px dashed #4493B8;
-    background:linear-gradient(-45deg, #9E0C25, #03709E );
+    background:linear-gradient(45deg, #9E0C25, #03709E );
     color: #28B1EB;
     display: flex;
     flex-direction: column;
     text-align: center;
     overflow-x: hidden;
+    padding-bottom: 6.5em;
     
 }
 .projects{

@@ -17,7 +17,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <section className={styles.section}>
+        <section id='projects' className={styles.section}>
             <h1>Projetos</h1>
 
             <motion.div ref={carrossel} className={styles.projects} whileTap={{ cursor: 'grabbing' }}  >
@@ -27,26 +27,28 @@ const Projects = () => {
                     <Project link="https://superb-palmier-ba87aa.netlify.app/" name='Newsletter sign up' title="link para Newsletter sign up" src='newsletter.webp' alt='pagina de inscrição  em uma newsletter'
 
                         description="Este é um projeto de newsletter sign up desenvolvido com React JS. Possui um formulário intuitivo e responsivo, permitindo aos usuários se inscreverem facilmente para receber atualizações por e-mail. A ideia do projeto veio de um desafio do site Frontend Mentor" />
+                    <Project link="https://statuesque-swan-31c081.netlify.app/" name='Cardápio Virtual' title="link para cardapio virtual " src='cardapio.webp' alt='site que oferece um cardápio virtual'
+
+                        description="O site de cardápio virtual foi desenvolvido em React js usando vite e oferece um menu para escolha dos pratos, funcionalidade de adicionar ao carrinho de compras e ao finalizar a escolha dos pratos, o usuário é redirecionado para o Whatsapp  para finalizar o pedido. " />
+                    <Project link="https://jjunior112.github.io/portfolioDev/pag6.html" name='Parallax page' title="link para site parallax com slider " src='parallax_slider.webp' alt='site parallax com slider'
+
+                        description="O projeto de parallax page combina os efeitos de parallax e slider para criar uma experiência interativa e visualmente atraente. Para seu desenvolvimento, foram usadas as linguagens HTML, CSS e JS e o framework bootsrap " />
 
 
                     <Project link="https://dreamy-buttercream-6d5fb5.netlify.app/" name='To do List' title="link para projeto To do List " src='to-do-list.webp' alt='site de to do list'
 
                         description="Este é um projeto de lista de tarefas (to-do list) desenvolvido com React JS. Com uma interface simples e intuitiva, permite aos usuários adicionar, marcar como concluídas, pesquisar, filtrar e excluir tarefas." />
-                    <Project link="https://jjunior112.github.io/portfolioDev/pag6.html" name='Parallax page' title="link para site parallax com slider " src='parallax_slider.webp' alt='site parallax com slider'
 
-                        description="O projeto de parallax page combina os efeitos de parallax e slider para criar uma experiência interativa e visualmente atraente. Para seu desenvolvimento, foram usadas as linguagens HTML, CSS e JS e o framework bootsrap " />
 
-                    <Project link="https://exquisite-hummingbird-7ef012.netlify.app/" name='Viajante Louco' title="link para o site de viagens " src='pokedex.webp' alt='site de viagens viajante louco'
+                    <Project link="https://exquisite-hummingbird-7ef012.netlify.app/" name='Viajante Louco' title="link para o site de viagens " src='viajanteLouco.webp' alt='site de viagens viajante louco'
 
-                        description="O site Viajante Louco é um refúgio virtual projetado em React, com uma estética relaxante e minimalista. Inspirado em spas ao redor do mundo, o site oferece aos usuários uma experiência de navegação tranquila, com informações sobre destinos, dicas de viagem e uma variedade de recursos terapêuticos para descontrair e estimular a imaginação." />
+                        description="O site Viajante Louco é um refúgio virtual projetado em React, com uma estética relaxante e minimalista.  O site oferece aos usuários uma experiência de navegação tranquila em forma de Sigle Page Application (SPA), com informações sobre destinos, dicas de viagem e uma variedade de recursos terapêuticos para descontrair e estimular a imaginação." />
 
                     <Project link="https://radiant-speculoos-0f3049.netlify.app/" name='News Homepage' title="link para homepage de noticias" src='news-homepage.webp' alt='news hompage'
 
                         description="Este projeto de news homepage  desenvolvido com React JS com responsividade para diversos tamanhos de telas. Este projeto faz parte de um desafio do site Frontend Mentor" />
 
-                    <Project link="https://jjunior112.github.io/portfolioDev/pag2.html" name='Pokedex' title="link para pokedex " src='pokedex.webp' alt='site pokemon'
 
-                        description="O projeto Pokedex é uma aplicação web desenvolvida utilizando as tecnologias HTML, CSS e JavaScript. A Pokedex é uma enciclopédia virtual que contém informações sobre os diferentes Pokemons existentes no mundo fictício de Pokemon." />
 
 
 

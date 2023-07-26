@@ -1,5 +1,8 @@
+import Abilities from "./components/Abilities"
 import Profile from "./components/Profile"
 import Projects from "./components/Projects"
+
+import './app.css'
 
 function App() {
 
@@ -7,9 +10,11 @@ function App() {
   return (
     <>
       <Profile/>
+      <Abilities/>
+
       <Projects/>
 
-      {/*criar rotas para expandir cada projeto e colocar um link pro deploy e outro pro github*/}
+     
       
     </>
   )
