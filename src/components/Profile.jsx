@@ -4,17 +4,44 @@ import { FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa'
 
 import { motion } from 'framer-motion'
 
+import { Sling as Hamburger } from 'hamburger-react'
+import { useState } from 'react'
+
 const Profile = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+    const [showMenu, setMenu] = useState('hideMenu');
+
+    const openMenu = () => {
+        if(!isOpen){
+        setMenu('showMenu')
+    }
+    else{
+        setMenu('hideMenu')
+    }
+    }
 
     return (
         <section id='home' className={styles.section}>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#abilities">Habilidades</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                </ul>
-            </nav>
+            <div className={styles.desktop}>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#abilities">Habilidades</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div className={styles.mobile}>
+                <nav>
+                    <Hamburger toggled={isOpen} toggle={setIsOpen} onToggle={openMenu} color='#fff' />
+                    <ul className={showMenu}>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#abilities">Habilidades</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
 
             <motion.div className={styles.name} initial={{ y: 100 }} animate={{ y: 0 }} transition={{ duration: 0.8 }}>
 

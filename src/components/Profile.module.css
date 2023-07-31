@@ -7,30 +7,37 @@
     padding-bottom: 8em;
 }
 
-.section nav {
+.desktop nav,.mobile nav{
+    display: flex;
     position: fixed;
     width: 100%;
-    display: flex;
     justify-content: end;
 }
 
-.section ul {
+.desktop ul {
     display: flex;
     list-style-type: none;
 }
-.section li{
+
+.desktop li {
     margin-left: 1em;
 }
-.section li:last-child{
+
+.desktop li:last-child {
     margin-right: 1em;
 }
 
-.section li>a{
+.desktop li>a {
     text-decoration: none;
     color: #fff;
 }
-.section li>a:hover{
+
+.desktop li>a:hover {
     color: #9E0C25;
+}
+
+.mobile {
+    display: none
 }
 
 .section button {
@@ -68,7 +75,17 @@
 .name h2 {
     font-size: 2vw;
 }
+@media (width<800px){
+    .desktop {
+        display: none;
+    }
 
+    .mobile {
+        display: flex;
+        
+    }
+   
+}
 @media (width<600px) {
     .name h2 {
         font-size: 4vw;
@@ -77,4 +94,5 @@
     .name p {
         font-size: 3vw;
     }
+   
 }

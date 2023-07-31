@@ -6,7 +6,7 @@
     flex-direction: column;
     text-align: center;
     overflow-x: hidden;
-    padding-bottom: 6.5em;
+    padding-bottom: 15em;
     
 }
 .projects{
@@ -32,6 +32,14 @@
     cursor: grabbing;
 }
 
-
+@media (width<500px){
+    .section{
+        padding-bottom:20em;
+    }
+    .projects{
+        padding-bottom: 2em;
+        margin-top: 2em; 
+    }
+}
 
 

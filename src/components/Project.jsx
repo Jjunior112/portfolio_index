@@ -1,4 +1,4 @@
-import styles from './Project.module.css'
+import styles from './Project.module.css';
 
 
 const Project = ({ link, name, title, src, alt, description }) => {
