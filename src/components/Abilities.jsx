@@ -1,6 +1,6 @@
 import styles from './Abilities.module.css'
 
-import { DiHtml5, DiJsBadge, DiCss3, DiBootstrap, DiReact, DiGithub } from "react-icons/di";
+import { DiHtml5, DiJsBadge, DiCss3, DiNodejs, DiReact, DiGithub } from "react-icons/di";
 
 
 const Abilities = () => {
@@ -18,14 +18,14 @@ const Abilities = () => {
             <div className={styles.icons}>
                 <div><DiReact /> <p>React: É uma biblioteca JavaScript para construção de interfaces de usuário (UI) interativas e reativas. Com componentes reutilizáveis, facilita o desenvolvimento de aplicativos complexos e de alto desempenho.</p></div>
 
-                <div><DiBootstrap /> <p>Bootstrap: É um framework front-end que oferece uma coleção de estilos CSS e componentes interativos. Permite a criação rápida de sites e aplicativos responsivos, otimizando o design para diversos dispositivos.</p></div>
+                <div><DiNodejs /><p> Node.js: É uma plataforma de desenvolvimento back-end que utiliza JavaScript para executar código do lado do servidor. Oferece um ambiente de execução rápido e eficiente, baseado no motor V8 do Google Chrome.</p></div>
 
                 <div><DiGithub /> <p>GitHub: É uma plataforma de hospedagem de código-fonte e colaboração para desenvolvedores. Permite o controle de versão, revisão de código e facilita o trabalho em equipe em projetos de software.</p></div>
 
             </div>
 
 
-        </section>
+        </section >
     )
 }
 

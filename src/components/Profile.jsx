@@ -49,7 +49,7 @@ const Profile = () => {
 
                 <h2>Juarez Júnior</h2>
 
-                <p>Tenho 23 anos, sou frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em HTML,CSS, JavaScript e nos frameworks React JS e Bootstrap </p>
+                <p>Tenho 23 anos, sou frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em HTML,CSS, JavaScript e nos frameworks React JS e Node JS </p>
 
             </motion.div>
 

@@ -1,7 +1,6 @@
 .abilities {
     display: flex;
     flex-direction: column;
-    
     padding: 1em;
     background: linear-gradient(-45deg, #9E0C25, #03709E);
     border-top: 3px dashed #4493B8;
