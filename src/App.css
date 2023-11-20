@@ -1,6 +1,12 @@
+:root {
+    --color1: #9E0C25;
+    --color2: #03709E;
+    --color3: #28B1EB;
+}
+
 .profile {
-    border-top: 3px dashed #4493B8;
-    background: linear-gradient(45deg, #9E0C25, #03709E);
+    border-top: 3px dashed var(--color3);
+    background: linear-gradient(45deg, var(--color1), var(--color2));
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -34,7 +40,7 @@
 }
 
 .desktop li>a:hover {
-    color: #9E0C25;
+    color: var(--color1);
 }
 
 .mobile {
@@ -46,8 +52,7 @@
 }
 
 .profile svg {
-    color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 1.5em;
     transition: .5s ease-in-out;
     margin-top: 5em;
@@ -55,7 +60,6 @@
 
 .profile svg:hover {
     transform: scale(1.2);
-    color: #28B1EB;
 }
 
 .name {
@@ -66,7 +70,7 @@
     width: 50%;
     padding-top: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: #fff;
 }
 
 .name h1 {
@@ -76,8 +80,6 @@
 .name h2 {
     font-size: 2vw;
 }
-
-
 
 .hideMenu {
     display: none;
@@ -104,20 +106,20 @@
 }
 
 .showMenu li>a:hover {
-    color: #9E0C25;
+    color: var(--color1);
 }
 
 .abilities {
     display: flex;
     flex-direction: column;
     padding: 1em;
-    background: linear-gradient(-45deg, #9E0C25, #03709E);
-    border-top: 3px dashed #4493B8;
+    background: linear-gradient(-45deg, var(--color1), var(--color2));
+    border-top: 3px dashed var(--color3);
 }
 
 .abilities h1 {
     text-align: center;
-    color: #28B1EB;
+    color: var(--color3);
 }
 
 .icons {
@@ -198,25 +200,49 @@
     color: #000000;
 }
 
+.github:hover {
+    color: #000000;
+}
+
+
 .deploy {
     color: #696969;
+}
+
+.deploy:hover {
+    color: var(--color1);
+}
+
+.linkedin {
+    color: #018AE6;
+}
+
+.download {
+    color: #fff;
+}
+
+.download:hover {
+    color: var(--color1);
 }
 
 .project a {
     margin: 1em;
     text-decoration: none;
+
+}
+
+.project svg {
     transition: .5s ease-in-out;
 }
 
 .project svg:hover {
-    color: #28B1EB;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .mainProjects {
-    border-top: 3px dashed #4493B8;
-    background: linear-gradient(45deg, #9E0C25, #03709E);
-    color: #28B1EB;
+    border-top: 3px dashed var(--color3);
+    background: linear-gradient(45deg, var(--color1), var(--color2));
+    color: var(--color3);
     display: flex;
     flex-direction: column;
     text-align: center;
