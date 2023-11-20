@@ -1,5 +1,3 @@
-import styles from './Profile.module.css'
-
 import { FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa'
 
 import { motion } from 'framer-motion'
@@ -13,17 +11,17 @@ const Profile = () => {
     const [showMenu, setMenu] = useState('hideMenu');
 
     const openMenu = () => {
-        if(!isOpen){
-        setMenu('showMenu')
-    }
-    else{
-        setMenu('hideMenu')
-    }
+        if (!isOpen) {
+            setMenu('showMenu')
+        }
+        else {
+            setMenu('hideMenu')
+        }
     }
 
     return (
-        <section id='home' className={styles.section}>
-            <div className={styles.desktop}>
+        <section id='home' className='profile'>
+            <div className='desktop'>
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
@@ -32,7 +30,7 @@ const Profile = () => {
                     </ul>
                 </nav>
             </div>
-            <div className={styles.mobile}>
+            <div className='mobile'>
                 <nav>
                     <Hamburger toggled={isOpen} toggle={setIsOpen} onToggle={openMenu} color='#fff' />
                     <ul className={showMenu}>
@@ -43,7 +41,7 @@ const Profile = () => {
                 </nav>
             </div>
 
-            <motion.div className={styles.name} initial={{ y: 100 }} animate={{ y: 0 }} transition={{ duration: 0.8 }}>
+            <motion.div className='name' initial={{ y: 100 }} animate={{ y: 0 }} transition={{ duration: 0.8 }}>
 
                 <h1>Frontend Developer</h1>
 

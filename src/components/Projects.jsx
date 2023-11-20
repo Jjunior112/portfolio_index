@@ -1,6 +1,3 @@
-import styles from './Projects.module.css'
-
-
 import Project from './Project'
 
 
@@ -8,10 +5,10 @@ const Projects = () => {
 
 
     return (
-        <section id='projects' className={styles.section}>
+        <section id='projects' className='mainProjects'>
             <h1>Projetos</h1>
 
-            <div className={styles.projects}   >
+            <div className='projects'   >
 
 
 
