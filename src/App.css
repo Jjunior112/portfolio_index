@@ -122,7 +122,7 @@
     color: var(--color3);
 }
 
-.icons {
+.icons,.projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
@@ -136,7 +136,6 @@
     width: 15em;
     margin: 1em;
     text-align: center;
-
 }
 
 .icons p {
@@ -147,7 +146,6 @@
     color: #fff;
     font-size: 35pt;
     margin: .5em;
-
 }
 
 .project {
@@ -159,8 +157,6 @@
     border-radius: 8px;
     transition: .5s ease-in-out;
     justify-content: space-between;
-
-
 }
 
 .project h2 {
@@ -188,7 +184,6 @@
     color: #000000;
     padding: .5em;
     overflow: scroll;
-
 }
 
 .project svg {
@@ -200,16 +195,11 @@
     color: #000000;
 }
 
-.github:hover {
-    color: #000000;
-}
-
-
 .deploy {
     color: #696969;
 }
 
-.deploy:hover {
+.deploy:hover,.download:hover {
     color: var(--color1);
 }
 
@@ -219,10 +209,6 @@
 
 .download {
     color: #fff;
-}
-
-.download:hover {
-    color: var(--color1);
 }
 
 .project a {
@@ -248,17 +234,7 @@
     text-align: center;
     overflow-x: hidden;
     padding-bottom: 5em;
-
 }
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: transparent;
-    margin-top: .5em;
-    margin: 0 auto;
-}
-
 
 @media (width<1200px) {
     .icons {
@@ -283,6 +259,7 @@
 }
 
 @media (width<600px) {
+
     .name h2 {
         font-size: 4vw;
     }
@@ -291,9 +268,6 @@
         font-size: 3vw;
     }
 
-}
-
-@media (width<500px) {
     .project {
         margin: 0 auto;
         margin: 2em;
