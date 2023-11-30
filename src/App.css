@@ -1,12 +1,12 @@
 :root {
-    --color1: #025740;
+    --color1: #80AAA8;
     --color2: #024b6b;
-    --color3: #2ABD82;
+    --color3: #A2C0bf;
 }
 
 .profile {
     border-top: 3px dashed var(--color3);
-    background: linear-gradient(45deg, var(--color1), var(--color2));
+    background: linear-gradient(90deg, var(--color1), var(--color2));
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -161,7 +161,7 @@
 
 .project h2 {
     font-size: medium;
-    color: #2ABD82;
+    color: #78AB8B;
     margin: 0 auto;
     height: 2em;
     width: 15em;
@@ -204,7 +204,7 @@
 }
 
 .linkedin {
-    color: #018AE6;
+    color: #0e76a8;
 }
 
 .download {
