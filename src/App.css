@@ -1,7 +1,7 @@
 :root {
-    --color1: #9E0C25;
-    --color2: #03709E;
-    --color3: #28B1EB;
+    --color1: #025740;
+    --color2: #024b6b;
+    --color3: #2ABD82;
 }
 
 .profile {
@@ -161,7 +161,7 @@
 
 .project h2 {
     font-size: medium;
-    color: #28B1EB;
+    color: #2ABD82;
     margin: 0 auto;
     height: 2em;
     width: 15em;
@@ -200,7 +200,7 @@
 }
 
 .deploy:hover,.download:hover {
-    color: var(--color1);
+    color: var(--color3);
 }
 
 .linkedin {

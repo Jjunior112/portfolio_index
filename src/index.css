@@ -8,5 +8,6 @@ body{
   display: none
 }
 ::selection{
-  background-color: #EB1035;
+  background-color: #197030;
+  color: #fff;
 }
