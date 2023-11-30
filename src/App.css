@@ -161,7 +161,7 @@
 
 .project h2 {
     font-size: medium;
-    color: #78AB8B;
+    color: var(--color2);
     margin: 0 auto;
     height: 2em;
     width: 15em;
@@ -195,16 +195,12 @@
     color: #000000;
 }
 
-.deploy {
-    color: #696969;
-}
-
-.deploy:hover,.download:hover {
+.download:hover {
     color: var(--color3);
 }
 
 .linkedin {
-    color: #0e76a8;
+    color: var(--color2);
 }
 
 .download {

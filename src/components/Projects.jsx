@@ -11,18 +11,20 @@ const Projects = () => {
             <div className='projects'   >
 
 
+                <Project  linkGithub="https://github.com/Jjunior112/api-movie-catalog" name='API catálogo de filmes' titleGithub='link para repositório no github' src='movie.webp' alt='Placa de gravação de cinema'
 
-                <Project linkDeploy="https://statuesque-swan-31c081.netlify.app/" linkGithub="https://github.com/Jjunior112/Cardapio_virtual" name='Cardápio Virtual' titleDeploy="link para cardapio virtual " titleGithub='link para repositório no github' src='cardapio.webp' alt='site que oferece um cardápio virtual'
+                    description="API para catalogo de filmes com autenticação usando JWT e uso da API externa chamada the movie database.
 
-                    description="O site de cardápio virtual foi desenvolvido em React js usando vite e oferece um menu para escolha dos pratos, funcionalidade de adicionar ao carrinho de compras e ao finalizar a escolha dos pratos, o usuário é redirecionado para o Whatsapp  para finalizar o pedido. " />
+                    Este repositório contém uma API Node.js que utiliza JSON Web Tokens (JWT) para autenticação e implementa um limitador de requisições por minuto utilizando o middleware express-rate-limit. Esta API oferece endpoints que só podem ser acessados mediante autenticação." />
 
-                <Project linkDeploy="https://unrivaled-panda-750b2a.netlify.app/" linkGithub="https://github.com/Jjunior112/advocacy" name='Landing Page de Escritório de Advocacia' titleDeploy="link para Landing page de advocacia" titleGithub='link para repositório no github'  src='landing-page-advocacy.webp' alt='landing page advocacia'
+                <Project linkGithub="https://github.com/Jjunior112/Cardapio_virtual" name='API para cardápio' titleGithub='link para repositório no github' src='menu-restaurant.webp' alt='cardapio de um restaurante'
 
-                    description="Este site foi desenvolvido usando React e TypeScript e busca proporcionar uma ótima experiência para o usuário ao buscar uma solução jurídica, sendo responsivo e adptável para diversas telas e dispositivos." />
+                    description="API de Cardápio, uma aplicação Node.js que utiliza o MongoDB como banco de dados para gerenciar pratos e tipos de pratos em um cardápio. Esta API oferece endpoints simples para adicionar, remover e alterar informações sobre os pratos, bem como adicionar novos tipos de pratos." />
 
-                <Project linkDeploy="https://bespoke-begonia-313714.netlify.app/" linkGithub="https://github.com/Jjunior112/github-api-ts" name='Buscador de usuários GitHub' titleDeploy="link para buscador de usuarios github" titleGithub='link para repositório no github'  src='github-api.webp' alt='buscador de usuarios github'
 
-                    description="Esse buscador foi desenvolvido em React js usando a linguagem TypeScript e tem por objetivo o consumo da api de usuários do GitHub. O site tem um design bem intuitivo e retorna alguns dados do perfil pesquisado como nome, usuário, link para o perfil entre outros." />
+                <Project  linkGithub="https://github.com/Jjunior112/api-inventory" name='API de controle de estoque' titleGithub='link para repositório no github' src='inventory.webp' alt='buscador de usuarios github'
+
+                    description="Esta API de Controle de Estoque é uma solução eficiente para gerenciar o inventário de produtos. Desenvolvida em Node.js, ela oferece endpoints para adicionar/remover itens, verificar o status do estoque e atualizar quantidades. " />
 
 
             </div>
