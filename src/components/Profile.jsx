@@ -43,11 +43,11 @@ const Profile = () => {
 
             <motion.div className='name' initial={{ y: 100 }} animate={{ y: 0 }} transition={{ duration: 0.8 }}>
 
-                <h1>Frontend Developer</h1>
+                <h1>Backend Developer</h1>
 
                 <h2>Juarez Júnior</h2>
 
-                <p>Tenho 23 anos, sou frontend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em HTML,CSS, JavaScript e nos frameworks React JS e Node JS </p>
+                <p>Tenho 23 anos, sou backend developer, tenho uma paixão pela criação de soluções digitais inovadoras e funcionais. Tenho habilidades em JavaScript, Node JS, criação e integração de APIs usando express js, bancos de dados relacionais e não relacionais. </p>
 
             </motion.div>
 
